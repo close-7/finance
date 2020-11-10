@@ -68,7 +68,15 @@
 
 
 
-## 工程构建
+## spa设计
+1. 设计意义  
+    - 前后端分离  
+    - 减轻服务端压力  
+    - 增强用户体验  
+    - prerender预渲染优化seo  
+2. 工作原理 
+    - history api（更优雅 onpopstate/pushState） `//注册路由 window.history.pushState({name:'api},link,url `  
+    - hash（兼容性更好 hashchange/location.hash）`//注册路由 location.hash=link `
 
 
 
